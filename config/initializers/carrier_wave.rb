@@ -3,10 +3,10 @@ if Rails.env.production?
     config.fog_provider = 'fog/google'                        # required
     config.fog_credentials = {
     provider:                         'Google',
-    google_storage_access_key_id:     'GOOGDQ67DJR7KSPANUB7',
-    google_storage_secret_access_key: '+C1unhIMDGbxvYLjjztyT9Babcn+th7mBdb+d7bQ'
+    google_storage_access_key_id:     ENV['GOOGLE_STORAGE_ACCESS_KEY_ID'],
+    google_storage_secret_access_key: ENV['GOOGLE_STORAGE_SECRET_ACCESS_KEY']
   }
-    config.fog_directory = 'photoapp-jerica'
+    config.fog_directory = ENV['GOOGLE_STORAGE_BUCKET']
     end
    
     
