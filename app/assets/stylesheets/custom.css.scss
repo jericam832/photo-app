@@ -63,12 +63,15 @@
     padding-left: 15px;
   }
 }
-
+ .container .jumbotron {
+     border-radius: 0;
+ }
 .jumbotron {
   text-align: center;
   background-image: asset-url('camera.jpeg');
   background-position: left center;
   background-size: cover;
+  
   color: #fff;
 //   font-family: 'Helvetica Neue' !important;
   font-stretch: expanded;
