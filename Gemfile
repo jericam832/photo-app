@@ -1,10 +1,13 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 gem 'devise'
 gem 'twitter-bootstrap-rails'
+gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
+gem 'bootstrap', '~> 4.0'
+gem 'popper_js', '~> 1.12', '>= 1.12.9'
+# gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'devise-bootstrap-views'
 gem 'sendgrid-ruby'
 gem 'stripe'

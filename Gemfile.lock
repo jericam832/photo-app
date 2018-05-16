@@ -43,9 +43,15 @@ GEM
       addressable (>= 2.3.1)
       extlib (>= 0.9.15)
       multi_json (>= 1.0.0)
+    autoprefixer-rails (8.1.0.1)
+      execjs
     bcrypt (3.1.11)
     binding_of_caller (0.8.0)
       debug_inspector (>= 0.0.1)
+    bootstrap (4.0.0)
+      autoprefixer-rails (>= 6.0.3)
+      popper_js (>= 1.12.9, < 2)
+      sass (>= 3.5.2)
     builder (3.2.3)
     byebug (10.0.0)
     carrierwave (1.2.2)
@@ -159,6 +165,7 @@ GEM
     orm_adapter (0.5.0)
     os (0.9.6)
     pg (0.21.0)
+    popper_js (1.12.9)
     public_suffix (3.0.2)
     rack (1.6.8)
     rack-protection (1.5.3)
@@ -266,6 +273,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap (~> 4.0)
   byebug
   carrierwave
   coffee-rails (~> 4.1.0)
@@ -277,12 +285,14 @@ DEPENDENCIES
   jquery-rails
   mini_magick
   pg (~> 0.11)
+  popper_js (~> 1.12, >= 1.12.9)
   rails (= 4.2.5)
   rails_12factor
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   sendgrid-ruby
   spring
+  sprockets-rails (~> 3.2, >= 3.2.1)
   sqlite3
   stripe
   twitter-bootstrap-rails
